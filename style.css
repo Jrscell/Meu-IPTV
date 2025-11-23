@@ -45,7 +45,12 @@ body {
 }
 
 /* HERO */
-
+.hero {
+    background: none
+    padding: 120px 40px;
+    text-align: left;
+    color: white;
+}
 
 .hero-content h1 {
     font-size: 40px;
@@ -274,22 +279,23 @@ body::before {
 
 /* HERO mais moderno */
 .hero {
-    padding: 150px 40px;
+    padding: 60px 20px 20px;   /* Muito mais compacto */
     color: #fff;
     backdrop-filter: blur(3px);
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
     text-shadow: 0 0 15px rgba(0,0,0,0.6);
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 18px;
     max-width: 650px;
     opacity: 0.9;
 }
+
 
 /* BOTÕES MODERNOS */
 .btn {
@@ -372,4 +378,32 @@ footer {
     background: rgba(30,41,59,0.4);
     backdrop-filter: blur(8px);
     border-top: 1px solid rgba(255,255,255,0.1);
+}
+/* HERO + LISTA DE CANAIS — versão bem compactada (mobile) */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 40px 15px 10px;     /* bem menor que antes */
+    }
+
+    .hero-content h1 {
+        margin-bottom: 10px;
+        font-size: 32px;             /* opcional: reduz o título */
+    }
+
+    .hero-content p {
+        margin-bottom: 10px;
+    }
+
+    .buttons {
+        margin-bottom: 5px;
+    }
+
+    .notice {
+        margin-bottom: 5px;
+    }
+
+    .canais {
+        padding-top: 5px;            /* quase zero de espaço */
+    }
 }
