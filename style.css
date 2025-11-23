@@ -45,11 +45,6 @@ body {
 }
 
 /* HERO */
-.hero {
-    background:
-        linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
-        url("img/iptv-1536x864.jpeg") center/cover no-repeat;
-}
 
 
 .hero-content h1 {
