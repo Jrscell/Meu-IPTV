@@ -379,47 +379,23 @@ footer {
     backdrop-filter: blur(8px);
     border-top: 1px solid rgba(255,255,255,0.1);
 }
-/* HERO + LISTA DE CANAIS — versão bem compactada (mobile) */
+
+
 @media (max-width: 768px) {
 
     .hero {
-        padding: 40px 15px 10px;     /* bem menor que antes */
-    }
-
-    .hero-content h1 {
-        margin-bottom: 10px;
-        font-size: 32px;             /* opcional: reduz o título */
-    }
-
-    .hero-content p {
-        margin-bottom: 10px;
+        padding: 80px 20px 40px !important;  /* 40px embaixo dá respiro real */
     }
 
     .buttons {
-        margin-bottom: 5px;
+        margin-bottom: 15px !important;
     }
 
     .notice {
-        margin-bottom: 5px;
+        margin-bottom: 20px !important;  /* aumenta o espaço antes da próxima seção */
     }
 
     .canais {
-        padding-top: 5px;            /* quase zero de espaço */
-    }
-}
-
-/* AJUSTE SOMENTE PARA CELULAR */
-@media (max-width: 768px) {
-
-    .hero {
-        padding: 80px 20px 20px;   /* aumenta o espaço no topo */
-    }
-
-    .hero h1 {
-        font-size: 34px;
-    }
-
-    .hero p {
-        font-size: 17px;
+        padding-top: 40px !important;   /* empurra a seção de canais pra baixo */
     }
 }
