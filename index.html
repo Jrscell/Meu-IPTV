@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPTV Premium</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- MENU -->
+    <header class="header">
+        <div class="logo">IPTV<span>Premium</span></div>
+        <nav class="menu">
+            <a href="#Inicio">Início</a>
+            <a href="#canais">Canais</a>
+            <a href="#planos">Planos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div class="menu-mobile" id="mobileBtn">☰</div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Assista TV Online com Qualidade e Estabilidade</h1>
+            <p>Mais de 15.000 canais, filmes, séries, conteúdo adulto e muito mais.
+                Assista onde quiser: Smart TV, Celular, PC, Tablet e TV Box.</p>
+
+            <div class="buttons">
+                <a href="#planos" class="btn">VER PLANOS</a>
+                <a href="#canais" class="btn outline">LISTA DE CANAIS</a>
+            </div>
+
+            <span class="notice">Teste grátis por 3h</span>
+        </div>
+    </section>
+
+    <!-- CANAIS -->
+    <section class="canais" id="canais">
+        <h2>Lista de Canais</h2>
+        <p>Alguns canais disponíveis no serviço:</p>
+
+        <input type="text" id="search" placeholder="Buscar canal..." class="search">
+
+        <div class="canais-grid" id="canalList">
+            <div class="canal-card">Globo HD <span>Aberto</span></div>
+            <div class="canal-card">SBT HD <span>Aberto</span></div>
+            <div class="canal-card">Band Sports <span>Esportes</span></div>
+            <div class="canal-card">HBO Max <span>Filmes</span></div>
+            <div class="canal-card">Telecine Pipoca <span>Filmes</span></div>
+            <div class="canal-card">ESPN 2 <span>Esportes</span></div>
+            <div class="canal-card">Discovery Kids <span>Infantil</span></div>
+            <div class="canal-card">Sportv <span>Esportes</span></div>
+            <div class="canal-card">Ufc fight pass <span>Esporte</span></div>
+        </div>
+    </section>
+
+    <!-- PLANOS -->
+   <section class="planos" id="planos">
+    <h2>Planos disponíveis</h2>
+    <p>Escolha o melhor para você:</p>
+
+    <div class="planos-grid">
+
+        <!-- PLANO BÁSICO -->
+        <a href="https://wa.me/5561992767769?text=Olá!%20Tenho%20interesse%20no%20Plano%20BÁSICO%20(1%20Tela,%20R$25,00)." 
+           target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="plano-card">
+                <h3>BÁSICO</h3>
+                <p>1 Tela</p>
+                <p>Canais + Filmes + Séries</p>
+                <p class="preco">R$ 25,00</p>
+            </div>
+        </a>
+
+        <!-- PLANO PREMIUM -->
+        <a href="https://wa.me/5561992767769?text=Olá!%20Quero%20assinar%20o%20Plano%20PREMIUM%20(2%20Telas,%20R$40,00,%204K)." 
+           target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="plano-card destaque">
+                <h3>PREMIUM</h3>
+                <p>2 Telas</p>
+                <p>Canais + Filmes + Séries + 4K</p>
+                <p class="preco">R$ 40,00</p>
+            </div>
+        </a>
+
+        <!-- PLANO FAMÍLIA -->
+        <a href="https://wa.me/5561992767769?text=Olá!%20Tenho%20interesse%20no%20Plano%20FAMÍLIA%20(4%20Telas,%20R$80,00)." 
+           target="_blank" style="text-decoration: none; color: inherit;">
+            <div class="plano-card">
+                <h3>FAMÍLIA</h3>
+                <p>4 Telas</p>
+                <p>Tudo Ilimitado</p>
+                <p class="preco">R$ 80,00</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+
+    <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <h2>Fale conosco</h2>
+    <p>Entre em contato para dúvidas ou ativação imediata.</p>
+
+   <form id="form" action="https://formsubmit.co/jrseletronicos.tech@gmail.com" method="POST">
+    <!-- DESLIGAR CAPTCHA DO FORMSubmit -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- PÁGINA DE OBRIGADO (opcional, pode trocar o link depois) -->
+    <input type="hidden" name="_next" value="https://google.com">
+
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="email" name="email" placeholder="Seu e-mail" required>
+    <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+
+    <button class="btn" type="submit">ENVIAR</button>
+</form>
+
+</section>
+
+    <footer>
+        © 2025 IPTV Premium — Todos os direitos reservados.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
