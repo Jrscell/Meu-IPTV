@@ -380,22 +380,18 @@ footer {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
 
-
+/* Ajuste DEFINITIVO do espaçamento no mobile */
 @media (max-width: 768px) {
 
     .hero {
-        padding: 80px 20px 40px !important;  /* 40px embaixo dá respiro real */
-    }
-
-    .buttons {
-        margin-bottom: 15px !important;
+        padding-bottom: 90px !important;  /* Aumenta bastante o espaço */
     }
 
     .notice {
-        margin-bottom: 20px !important;  /* aumenta o espaço antes da próxima seção */
+        margin-bottom: 30px !important;   /* Espaço extra abaixo do "Teste grátis" */
     }
 
     .canais {
-        padding-top: 40px !important;   /* empurra a seção de canais pra baixo */
+        padding-top: 35px !important;     /* Afasta a seção de canais da hero */
     }
 }
