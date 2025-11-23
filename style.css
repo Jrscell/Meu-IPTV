@@ -240,10 +240,9 @@ footer {
 
 /* Fundo com efeito suave */
 body {
-    background: #0b0f1a;
-    background-image: url("imagens/fundo.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+    background:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("img/iptv-1536x864.jpeg") center/cover no-repeat fixed;
     color: #e2e8f0;
     overflow-x: hidden;
 }
@@ -378,11 +377,4 @@ footer {
     background: rgba(30,41,59,0.4);
     backdrop-filter: blur(8px);
     border-top: 1px solid rgba(255,255,255,0.1);
-}
-body {
-    background: 
-        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
-        url("/img/iptv-1536x864.jpeg") center/cover no-repeat fixed;
-    color: #e2e8f0;
-    overflow-x: hidden;
 }
